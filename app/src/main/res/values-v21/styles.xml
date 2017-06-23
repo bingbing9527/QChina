@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@android:color/black</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:windowTitleBackgroundStyle">@color/color_2da568</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:fitsSystemWindows">true</item><!--可能导致 toast内容位置改变，解决方案：使用全局context-->
+    </style>
+
+
+</resources>
